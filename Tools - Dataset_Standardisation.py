@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jan 31 21:59:14 2021
-
-@author: patri
-"""
-
 import numpy as np
 
 np.random.seed(0)
