@@ -25,6 +25,7 @@ tab = np.array([1,2,3])
 print(tab.size)
 print(tab.shape)
 
+# randint // randint(debut, fin, [dimension en ligne])
 
 # ZEROS et ONES (shape du tableau sous forme de tuple)
 
