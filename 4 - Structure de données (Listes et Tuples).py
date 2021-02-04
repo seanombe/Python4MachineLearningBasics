@@ -4,15 +4,18 @@
 '''
 
 # Tuples
+
 '''
 Les tuples sont des entites non modifiables,
 peuvent contenir tout type 
 de variables sauf les dictionnaires
 '''
+
 tuple_1 = (1, 2, 4)
 print(tuple_1)
 
 # Listes
+
 '''
 Les listes peuvent contenir tout type 
 de variables sauf les dictionnaires
@@ -60,6 +63,13 @@ else :
 for city in villes :
     print(city)
 
+# Pourcours de la liste avec possibilité de fournir Id et valeur
+for count, value in enumerate(villes):
+    print(count, value)
+
 # Parcours de deux listes en parallèle (dont une des plus courte, cela se stoppe où la plus courte se stoppe)
 for city, city1 in zip(villes, nested_liste) :
     print(city1, city)
+
+# On peut faire du sliding pour parcourir une liste
+# liste[debut, fin, pas]
